@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CLube do Filme</title>
+        <link rel="stylesheet" href="style/filme-modelo.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="shortcut icon" href="imgs/favicon/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.html" class="logo">Clube do Filme</a>
+
+            <nav class="menu">
+                <div class="menu__item">
+                    <a href="index.html"><i class="fa-solid fa-house menu__icon"></i>Home</a>
+                </div>
+                <div class="menu__item">
+                    <a href="filmes.html"><i class="fa-solid fa-video menu__icon"></i>Filmes</a>
+                </div>
+                <div class="menu__item">
+                    <a href="series.html"><i class="fa-solid fa-film menu__icon"></i>Séries</a>
+                </div>
+            </nav>
+
+            <div class="container-input">
+                <input type="text" placeholder="Procurar" class="menu__input" />
+                <i class="fa-solid fa-magnifying-glass input__icon"></i>
+            </div>
+        </div>
+
+        <div class="filme-modelo">
+            <img src="imgs/filmes/logan.webp" alt="" class="filme-modelo__img" />
+
+            <div class="filme-modelo__descricao">
+                <h2 class="filme-modelo__titulo">Logan</h2>
+
+                <div class="filme-modelo__info">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span class="filme-modelo__ano">2017</span>
+                    <i class="fa-regular fa-clock"></i>
+                    <span class="filme-modelo__duracao">2 h 17 min</span>
+                </div>
+
+                <p class="filme-modelo__diretor">Diretor: James Mangold</p>
+                <p class="filme-modelo__elenco">Elenco: Hugh Jackman, Patrick Stewart, Dafne Keen</p>
+
+                <span class="filme-modelo__tipo">Filmes</span>
+
+                <p class="filme-modelo__sinopse">
+                    Em um futuro em que os mutantes estão quase extintos, um velho e cansado Logan leva uma vida tranquila. Mas quando Laura, uma
+                    garota mutante perseguida por cientistas, pede ajuda a ele, ele deve colocá-la em segurança.
+                </p>
+
+                <a href="https://www.youtube.com/watch?v=KPND6SgkN7Q" target="_blank" class="filme-modelo__trailer">Ver Trailer ></a>
+            </div>
+        </div>
+
+        <div class="comentarios">
+            <p>Comentários</p>
+            <textarea name="comentario" id="comentario" cols="80" rows="10" placeholder="Escreva um comentário"></textarea>
+            <input type="button" value="Comentar" />
+        </div>
+
+        <div class="rodape">
+            <p>clube do filme. Alguns Direitos Reservados</p>
+        </div>
+    </body>
+</html>

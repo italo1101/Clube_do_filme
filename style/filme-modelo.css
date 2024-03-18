@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #141414;
+}
+
+a {
+    color: #cecece;
+    text-decoration: none;
+}
+/*Secao Menu*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    margin: 0 auto;
+    width: 1000px;
+    color: #cecece;
+}
+
+.logo {
+    color: red;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu__item {
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.menu__item:hover {
+    background-color: #232323;
+}
+.menu__icon {
+    width: 20px;
+    margin-right: 10px;
+}
+.container-input {
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.menu__input {
+    background-color: transparent;
+    color: #cecece;
+    font-size: 14px;
+    border: none;
+}
+.menu__input:focus-visible {
+    outline: none;
+}
+.input__icon {
+    color: #cecece;
+}
+
+.filme-modelo {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    width: 1200px;
+    margin: 20px auto 80px;
+    color: #cecece;
+}
+.filme-modelo__img {
+    height: 550px;
+}
+.filme-modelo__titulo {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.filme-modelo__info {
+    margin-bottom: 20px;
+}
+.filme-modelo__ano {
+    margin-right: 20px;
+}
+.filme-modelo__elenco {
+    margin-bottom: 50px;
+}
+.filme-modelo__tipo {
+    color: #232323;
+    background-color: #cecece;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-style: italic;
+}
+.filme-modelo__sinopse {
+    margin: 50px 0px;
+}
+.filme-modelo__trailer {
+    font-size: 20px;
+    background-color: #232323;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.filme-modelo__trailer:hover {
+    color: #232323;
+    background-color: #cecece;
+}
+.comentarios {
+    width: 1200px;
+    margin: 0 auto;
+}
+.comentarios p {
+    color: #cecece;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.comentarios textarea {
+    color: white;
+    background-color: #232323;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.comentarios input {
+    display: block;
+    background-color: #232323;
+    padding: 10px 20px;
+    border: none;
+    color: #cecece;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.comentarios input:hover {
+    color: #232323;
+    background-color: #cecece;
+}
+
+.rodape {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}

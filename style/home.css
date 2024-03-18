@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #141414;
+}
+
+a {
+    color: #cecece;
+    text-decoration: none;
+}
+img {
+    transition: 0.3s;
+}
+img:hover {
+    scale: 1.05;
+}
+/*Secao Menu*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    margin: 0 auto;
+    width: 1000px;
+    color: #cecece;
+}
+
+.logo {
+    color: red;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu__item {
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.menu__item:hover {
+    background-color: #232323;
+}
+.menu__icon {
+    width: 20px;
+    margin-right: 10px;
+}
+.container-input {
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.menu__input {
+    background-color: transparent;
+    color: #cecece;
+    font-size: 14px;
+    border: none;
+}
+.menu__input:focus-visible {
+    outline: none;
+}
+.input__icon {
+    color: #cecece;
+}
+
+/*Seção Filme destaque*/
+.container-filme-destaque {
+    background-image: url("/imgs/filmes/logan.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    width: 100%;
+    height: 50vh;
+    margin: 20px auto;
+    color: white;
+    position: relative;
+}
+.filme-destaque {
+    position: absolute;
+    margin: 70px 35px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 30%;
+}
+.filme-destaque__titulo {
+    font-weight: bold;
+}
+.filme-destaque__sinopse {
+    margin: 20px 0;
+}
+
+/*Seção top 3*/
+.top-3 {
+    width: 1200px;
+    margin: 50px auto;
+}
+.top-3__titulo {
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: 32px;
+}
+.top-3__filmes {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.filme {
+    position: relative;
+}
+.number {
+    position: absolute;
+    font-size: 150px;
+    left: -55px;
+    top: -20px;
+    z-index: -1;
+}
+.filme:first-child .number {
+    left: -30px;
+}
+.filme img {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+/*Filmes destaques*/
+
+.filmes-recentes,
+.series-recentes {
+    width: 1200px;
+    margin: 20px auto;
+}
+.filmes-recentes__titulo,
+.series-recentes__titulo {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.filme-recente,
+.serie-recente {
+    color: #cecece;
+}
+.filme-recente img,
+.serie-recente img {
+    width: 100%;
+    height: 550px;
+    border-radius: 5px;
+}
+.filme-recente p,
+.serie-recente p {
+    font-size: 18px;
+}
+.filme-recente span,
+.serie-recente span {
+    font-size: 14px;
+}
+
+.rodape {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
